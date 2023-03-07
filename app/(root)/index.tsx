@@ -37,7 +37,14 @@ export default function Home(props) {
           <View />
         </View>
       </SafeAreaView>
-      <View style={{ paddingHorizontal: 40, paddingVertical: 100 }}>
+      <View
+        style={{
+          paddingHorizontal: 16,
+          paddingVertical: 20,
+          backgroundColor: "white",
+          height: "100%",
+        }}
+      >
         <Text>Home page tab</Text>
         <Link href="/details">Go to details</Link>
         <Link href="/profile">Go to profile</Link>
